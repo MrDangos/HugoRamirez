@@ -1,0 +1,40 @@
+img {height: 500px;
+    width: 400px;}
+    @media screen and (min-width: 500px) {
+        img {height: 600px;
+        width: 500px;}}
+    @media screen and (min-width: 700px) {
+        img {height: 550px;
+            width: 800px;}}
+
+div { display: flex;
+    flex-direction: column;}
+    @media screen and (min-width: 700px) {
+        div{flex-direction: row;}}
+
+#two{width: 30%;
+    height: 30%;}
+
+.one {display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    margin-left: 1em;}
+
+h1 {margin-left: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;}
+
+p   {margin-left: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: small;}
+
+    @media screen and (min-width: 500px) {
+        p {font-size: medium;}}
+     @media screen and (min-width: 700px) {
+        p {font-size: large;}}

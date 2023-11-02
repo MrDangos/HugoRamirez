@@ -1,0 +1,27 @@
+img {height: 450px;
+    width:850px;}
+#Main { display: grid;
+    grid-template-columns: 1fr 1fr;}
+#two{width: 30%;
+    height: 30%;
+    margin-right: 0%;}
+.one {display: grid;
+    grid: auto;
+    margin-left: 1em;}
+h1 {margin-left: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;}
+p  {margin-left: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: larger;
+    grid-column: 1/-1}
+ul {font-size: larger;
+    margin-left: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;}
+.ph {order: 2;}
