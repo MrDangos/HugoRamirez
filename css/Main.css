@@ -1,5 +1,5 @@
 body {margin: 20px;
-    background-image: url('pyke_22.png');}
+    background-image: url('../images/pyke_22.png');}
 nav {display: flex;
     justify-content: space-around;
     margin-left: 0px;
