@@ -16,7 +16,10 @@ nav {display: flex;
         nav {font-size: medium;}}
      @media screen and (min-width: 700px) {
         nav {font-size: xx-large;}}
-#color {color: wheat;;
+#color {color: white;
     text-decoration: none;}
 #color:hover {color: #A63446;}
-
+p {color: white;}
+h1 {color: white;}
+h2 {color: white;}
+ul {color: white;}
