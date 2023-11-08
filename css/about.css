@@ -5,9 +5,9 @@ img {height: 20%;
         img {height: 400px;
         width: 300px;}}
     @media screen and (min-width: 700px) {
-        img {height: 300%;
-            width: 200%;
-            margin-left: 5em;}}
+        img {height: 240%;
+            width: 150%;
+            margin-left: 10em;}}
 
 div {display: flex;
         flex-direction: column;}

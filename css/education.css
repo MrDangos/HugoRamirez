@@ -6,7 +6,7 @@ img {height: 300%;
     @media screen and (min-width: 700px) {
         img {height: 700%;
             width: 300%;}}
-
+img{background: white;}
 div { display: flex;
         flex-direction: column;}
     @media screen and (min-width: 700px) {
