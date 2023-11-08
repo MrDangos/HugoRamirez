@@ -1,8 +1,8 @@
 img {height: 300%;
     width: 400%;}
     @media screen and (min-width: 300px) {
-        img {height: 600px;
-        width: 500px;}}
+        img {height: 300px;
+        width: 300px;}}
     @media screen and (min-width: 700px) {
         img {height: 700%;
             width: 300%;}}

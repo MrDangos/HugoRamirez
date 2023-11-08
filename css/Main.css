@@ -19,7 +19,15 @@ nav {display: flex;
 #color {color: white;
     text-decoration: none;}
 #color:hover {color: #A63446;}
-p {color: white;}
-h1 {color: white;}
-h2 {color: white;}
-ul {color: white;}
+p {color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;}
+h1 {color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;}
+h2 {color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;}
+ul {color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;}
