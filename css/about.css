@@ -7,16 +7,20 @@ img {height: 20%;
     @media screen and (min-width: 700px) {
         img {height: 240%;
             width: 150%;
-            margin-left: 10em;}}
-
+            margin-left: em;}}
+body{background-image: url('../images/pyke_233.webp')}
 div {display: flex;
         flex-direction: column;}
     @media screen and (min-width: 700px) {
         #Main { display: grid;
-        grid-template-columns: 1fr 1fr;}}
-#two{width: 30%;
+        grid-template-columns: 1fr 1fr 1fr;}}
+#two{width: 40%;
     height: 30%;
-    margin-right: 0%;}
+margin-left: 0em;}
+    @media screen and (min-width: 700px) {
+        #two{width: 40%;
+            height: 30%;
+        margin-left: 7em;}}
 .one {display: grid;
     grid: auto;
     margin-left: 1em;}
@@ -58,3 +62,6 @@ ul {font-size: medium;
 h2 {margin-left: 5%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
     'Lucida Sans', Arial, sans-serif;}
+
+#three {width:50%;
+    height:60%;}
