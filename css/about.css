@@ -34,7 +34,9 @@ p   {margin-left: 2%;
     padding-right: 10px;
     padding-bottom: 10px;
     margin-left: 2%;}
-#p2 {margin-left: 5%;}
+#p2 {margin-left: 5%;
+    border: none;
+    font-size: larger;}
 
     @media screen and (min-width: 500px) {
         p {font-size: medium;}}

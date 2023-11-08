@@ -5,8 +5,8 @@ img {height: 300%;
         img {height: 600px;
         width: 500px;}}
     @media screen and (min-width: 700px) {
-        img {height: 400%;
-            width: 200%;}}
+        img {height: 350%;
+            width: 350%;}}
 
 div {display: flex;
     place-items: center;
@@ -27,12 +27,13 @@ h1 {margin-left: 5%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
     'Lucida Sans', Arial, sans-serif;}
 p   {margin-left: 2%;
+    margin-top: 5%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
     'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     padding-right: 50px;
     padding-left: 50px;}
-    @media screen and (min-width: 500px) {
+    @media screen and (min-width: 600px) {
         p {font-size: 0px;}}
     @media screen and (min-width: 700px) {
         p {font-size: 30px;}}
