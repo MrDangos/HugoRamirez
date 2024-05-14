@@ -7,38 +7,47 @@
     <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="../css/Main.css">
     <nav>
-        <a id = color href="../index.html">Home</a>
-        <a id = color href="../html/about.html">About</a>
-        <a id = color href="../html/education.html">Education</a>
-        <a id = color href="../html/project.html">Projects</a>
-        <a id = color href="../html/contact.html">Contact Me</a>
+        <a id="color" href="../index.html">Home</a>
+        <a id="color" href="../html/about.html">About</a>
+        <a id="color" href="../html/education.html">Education</a>
+        <a id="color" href="../html/project.html">Projects</a>
+        <a id="color" href="../html/contact.html">Contact Me</a>
     </nav>
 </head>
 <body>
     <h1>About</h1>
     <div id="Main">
         <div class="ph">
-        <p> I'm 18 year old and was born in 2005. I'm a Hispanic from Guatemala and a first generation american. 
-            I'm enrolled at Indian hill Currently and am learing many different coding language like HTML, Java, and SQL.
-            
-         </p>
-         <h2>Languages</h2>
-         <ul>
-             <li> English</li>
-             <li> Spanish</li>
-         </ul>
-         <h2> Interests</h2>
-         <p id = p2> I enjoy playing games in my free time and building modelkits.
-            Some of my favoirt games are valorant, LoL, and AC6.
-         </p>
+            <p> I'm 18 year old and was born in 2005. I'm a Hispanic from Guatemala and a first generation american. 
+                I'm enrolled at Indian hill Currently and am learing many different coding language like HTML, Java, and SQL.
+            </p>
+            <h2>Languages</h2>
+            <ul id="skillsList2"></ul>
+            <h2> Interests</h2>
+            <p id="p2"> I enjoy playing games in my free time and building modelkits.
+                Some of my favoirt games are valorant, LoL, and AC6.
+            </p>
         </div>
         <div class="one">
-            <div id = "two"><img src="../images/family3.jpg" alt="Photo of Hugo's sister, brother, and him">
-            <img src="../images/family2.jpg" alt="Photo of Hugo and his Mom with his younger brother">
+            <div id="two">
+                <div class="image-wrapper">
+                    <img src="../images/family3.jpg" alt="Photo of Hugo's sister, brother, and him">
+                </div>
+                <div class="image-wrapper">
+                    <img src="../images/family2.jpg" alt="Photo of Hugo and his Mom with his younger brother">
+                </div>
+            </div>
         </div>
-       
+        <div id="three">
+            <div class="image-wrapper">
+                <img src="../images/family1.jpg" alt="Photo hugo when he was younger and his younger brother and dad.">
+            </div>
+        </div>
     </div>
- <div id = "three"> <img src="../images/family1.jpg" alt="Photo hugo when he was younger and his younger brother and dad.">
-        </div>
+    <script src="/js/listCreator.js"></script>
+    <script>
+        loadList(1);  
+    </script>
+    <script src="/js/animation.js"></script>
 </body>
 </html>
