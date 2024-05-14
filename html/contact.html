@@ -11,40 +11,40 @@
         <a id = color href="../html/about.html">About</a>
         <a id = color href="../html/education.html">Education</a>
         <a id = color href="../html/project.html">Projects</a>
-        <a id = color href="../html/Exp.html">Contact Me</a>
+        <a id = color href="/html/contact.html">Contact Me</a>
     </nav>
 </head>
 <body>
     <div class="contact">
-        <h1>Contact Me</h1>
-        <p>If you have any questions please contact me</p>
+        <h1>Contact</h1>
+        <h2>Have any questions?<br> Contact me! &#128513;</h2>
         <div class="contact-box">
             <div class="contact-left">
                 <h3>Send your Question</h3>
-                <form>
+                <form id="contactForm" action="https://formsubmit.co/ramirez.h2023@gmail.com" method="POST">
                     <div class="input-row">
                         <div class="input-group">
                             <label>Name</label>
-                            <input type="text" placeholder="Jhon doe">
+                            <input type="text" id="name" name="name" placeholder="Dango Doe">
                         </div>
                         <div class="input-group">
                             <label>Phone</label>
-                            <input type="text" placeholder="111-111-1111">
+                            <input type="phone" id="phone" name="phone" placeholder="optional - 641-xxx-xxxx">
                         </div>
                     </div>
                     <div class="input-row">
                         <div class="input-group">
                             <label>Email</label>
-                            <input type="email" placeholder="jhon.doe@gamil.com">
+                            <input type="email" id="email" name="email" placeholder="dango.pink@gamil.com">
                         </div>
                         <div class="input-group">
                             <label>Subject</label>
-                            <input type="text" placeholder="Job offer">
+                            <input type="text" id="subject" name="subject" placeholder="Job offer">
                         </div>
                     </div>
                     <label>Message</label>
-                    <textarea rows="10" placeholder="Your Message"></textarea>
-                    <button type="submit">SEND</button>
+                    <textarea rows="10" id="message" name="message" placeholder="Your Message"></textarea>
+                    <button type="button" onclick="validateForm()">SEND</button>
                 </form>
             </div>
             <div class="contact-right">
@@ -62,5 +62,8 @@
             </div>
         </div>
     </div>
+    <script src="/js/form.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </body>
 </html>

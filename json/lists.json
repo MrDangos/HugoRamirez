@@ -1,0 +1,26 @@
+{
+    "list": [
+    { 
+        "list": 1,
+        "name": "About",
+        "list-item-1": "English",
+        "list-item-2": "Spanish"
+    },
+    { 
+        "list": 2,
+        "name": "Skills",
+        "list-item-1": "Paython",
+        "list-item-2": "CSS/HTML", 
+        "list-item-3": "SQl",
+        "list-item-4": "Java",
+        "list-item-5": "COBOL",
+        "list-item-6": "C#",
+        "list-item-7": "Java Scipt"
+    },
+        {"list": 3,
+        "name": "Improving",
+        "list-item-1": "Java - Taking Java 3 during this summer",
+        "list-item-2": "Cobol - Taking Cobol 2 in the fall" 
+        }
+    ]
+}

@@ -20,18 +20,13 @@ margin-right: 0%;}
     margin-left: 1em;}
     @media screen and (min-width: 500px) {
         .one {margin-left: 3em;}}
-h1 {margin-left: 2%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
-    'Lucida Sans', Arial, sans-serif;}
+h1 {margin-left: 2%;}
 p   {margin-left: 2%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
-    'Lucida Sans', Arial, sans-serif;
-    font-size: large;
-    margin-left: 2%;}
+    margin-left: 2%;
+    text-decoration: none;}
 #p2 {margin-left: 5%;
 border: none;
 font-size: larger;}
-
 @media screen and (min-width: 500px) {
     p {font-size: medium;}}
     @media screen and (min-width: 700px) {

@@ -8,7 +8,7 @@ body{
 .contact {width: 80%;
     margin: 50px auto;}
 
-.contact-box {background: #5b8d5b;
+.contact-box {background: #7ebe7e;
     display: flex;}
 
 .contact-left {flex-basis: 60%;
@@ -16,7 +16,7 @@ body{
 
 .contact-right { flex-basis: 40%;
     padding: 40px;
-    background-color:#e5572f;
+    background-color:#f79546;
     color: #fff;}
 
 h1 {margin-bottom: 10px;}

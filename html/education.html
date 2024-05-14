@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Education</title>
     <link rel="stylesheet" href="../css/Main.css">
-    <link rel="stylesheet" href="../css/education.css">
+    <link rel="stylesheet" href="../css/about.css">
     <nav>
         <a id = color href="../index.html">Home</a>
         <a id = color href="../html/about.html">About</a>
@@ -16,33 +16,34 @@
 </head>
 
 <body>
+    <script src="/js/listCreator.js"></script>
     <h1> Education </h1>
     <div id="Main">
         <div>
-        <p>
-            <a>I’m a student at Indian Hills Community College in Iowa
-                attending the software development Program.  
-            Although I’m still learning how to code, 
-            I have a great passion for learning and improving.
-            Attending the software development Program has helped me be a a 
-            well rounded coder.
-            </a>
-        </p>
-        <h2>Skills</h2>
-        <ul>
-            <li> Python</li>
-            <li> CSS/HTML</li>
-            <li> SQL</li>
-        </ul>
-        <h2> Currently learning</h2>
-           <ul>
-            <li> Java</li>
-            <li> Colbolt</li>
-        </ul> 
+            <p>
+                <a>I’m a student at Indian Hills Community College in Iowa
+                    attending the software development Program.  
+                Although I’m still learning how to code, 
+                I have a great passion for learning and improving.
+                Attending the software development Program has helped me be a 
+                well rounded coder.
+                </a>
+            </p>
+            <h2>Skills</h2>
+                <ul id="skillsList"></ul>
+            <h2> Currently Improving</h2>
+                <ul id="skillsList2"></ul>        
         </div>
         <div class="one">
-            <div id = "two"><img src="../images/indian.png" alt="Indian Hills Community College Logo"></div>
+            <div id="two"><img src="../images/indian.png" alt="Indian Hills Community College Logo"></div>
         </div>
     </div>
+    
+    <script>
+        loadList(2);  
+    </script>
+    <script>
+        loadList(3);  
+    </script>
 </body>
 </html>
